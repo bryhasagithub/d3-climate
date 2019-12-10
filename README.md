@@ -1,4 +1,7 @@
-# Climate Data Visualizations presented using D3 with React  
+# Climate Data Visualizations presented using D3 with React
+
+Primary List of Data Sources used: https://climate.nasa.gov/solutions/resources/
+
 ## Available Scripts
 
 In the project directory, you can run:

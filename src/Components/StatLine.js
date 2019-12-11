@@ -2,6 +2,8 @@ import React from 'react'
 import { mean, sum } from 'd3-array'
 
 export default (props) => {
+  console.log('props.filteredData.',props.allData)
+
   const filteredLength = props.filteredData.length
   let allSales = mean(props.allData.map(d => sum(d.data)))
   allSales = Math.floor(allSales * 100)/100

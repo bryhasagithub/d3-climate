@@ -33,7 +33,7 @@ class StreamGraph extends Component {
         key={"stack" + i}
         d={stackArea(d)}
         onMouseEnter={() => {this.props.onHover(this.props.data[i])}}
-        style={{fill: this.props.hoverElement === this.props.data[i]["id"] ? "#FCBC34" : this.props.colorScale(this.props.data[i].launchday), stroke: "black", strokeOpacity: 0.5 }}
+        style={{fill: this.props.hoverElement === this.props.data[i]["id"] ? "#FCBC34" : this.props.colorScale(this.props.data[i].x_axis), stroke: "black", strokeOpacity: 0.5 }}
       />)
 
     return <svg width={this.props.size[0]} height={this.props.size[1]}>

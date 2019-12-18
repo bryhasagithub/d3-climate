@@ -13,7 +13,7 @@ export default (props) => {
   return <div>
     <h1><span>Stats: </span>
       <span>{filteredLength} countries - </span>
-      <span>Average sales: </span>
+      <span>Average: </span>
       <span>{filteredSales} ({allSales})</span>
     </h1>
   </div>
